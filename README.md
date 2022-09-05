@@ -1,4 +1,4 @@
-# product-preview-card
+# perfume-card
 
 A perfume product UI created using HTML and CSS. I learnt how to use: 
 - the `:active` selector &
