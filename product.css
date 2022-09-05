@@ -4,17 +4,17 @@ body {
     margin: 0;
 }
 .beigeBg {
-    background-color: blanchedalmond;
+    background-color: #f3eae3;
     height: 100vh;
     width: 100vw;
 }
 .card {
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     height: 600px;
     width: 600px;
     background-color: white;
-    margin-left: 80px;
+    margin-left: 80px;   
 }
 .perfumeImg {
     background-image: url('resources/images/image-product.jpg');
@@ -22,33 +22,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: calc(50%);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-/* .perfumeImg Img {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    height: 600px;
-    width: 300px;
-} */
 .perfumeDetails {
-    padding: 3rem;
+    padding: 2rem;
     width: 300px;
 }
 .priceTag {
     display: flex;
 }
 .priceTag h1 {
-    color: green;
+    color: #3d8168;
 }
 .classyFont {
     /*link to a google font above and use it here*/
 }
 .greyedOut {
-    opacity: 0.5;
+    color: #a2a2ab;
 }
 button {
-    background-color: green;
+    background-color: #3d8168;
     padding: 16px 28px;
     color: #fff;
     border: none;
