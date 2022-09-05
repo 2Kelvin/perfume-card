@@ -31,11 +31,19 @@ body {
     padding: 2rem;
     width: 300px;
 }
+.perfumeDetails h4 {
+    letter-spacing: 0.8em;
+}
 .priceTag {
     display: flex;
+    align-items: center;
 }
 .priceTag h1 {
     color: #3d8168;
+    margin-right: 20px;
+}
+.priceTag p {
+    text-decoration: line-through #444;
 }
 .classyFont {
     font-family: 'DM Serif Display', serif;
@@ -52,6 +60,13 @@ button {
     color: #fff;
     border: none;
     border-radius: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+button i {
+    margin-right: 8px;
 }
 .normalFont {
     font-family: 'Plus Jakarta Sans', sans-serif;
