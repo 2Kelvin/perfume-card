@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
 body {
     box-sizing: border-box;
     padding: 0;
@@ -36,7 +38,10 @@ body {
     color: #3d8168;
 }
 .classyFont {
-    /*link to a google font above and use it here*/
+    font-family: 'DM Serif Display', serif;
+}
+.priceTag h1 {
+    color: #3d8168;
 }
 .greyedOut {
     color: #a2a2ab;
@@ -47,4 +52,7 @@ button {
     color: #fff;
     border: none;
     border-radius: 10px;
+}
+.normalFont {
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
