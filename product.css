@@ -78,6 +78,9 @@ button i img {
     height: 20px;
     vertical-align: middle;
 }
+button:active {
+    background-color: #1a4031;
+}
 .normalFont {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
