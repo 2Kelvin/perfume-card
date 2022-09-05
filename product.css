@@ -67,13 +67,16 @@ button {
     border: none;
     border-radius: 10px;
     font-weight: 600;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.1em;
     cursor: pointer;
 }
-button i {
+button i img {
     margin-right: 9px;
+    height: 20px;
+    vertical-align: middle;
 }
 .normalFont {
     font-family: 'Plus Jakarta Sans', sans-serif;
