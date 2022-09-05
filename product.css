@@ -9,11 +9,14 @@ body {
     background-color: #f3eae3;
     height: 100vh;
     width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .card {
     border-radius: 10px;
     display: flex;
-    height: 600px;
+    height: fit-content;
     width: 600px;
     background-color: white;
     margin-left: 80px;   
@@ -23,16 +26,19 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: calc(50%);
+    width: calc(55%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 .perfumeDetails {
-    padding: 2rem;
-    width: 300px;
+    padding: 2em;
+    width: calc(45%);
 }
 .perfumeDetails h4 {
-    letter-spacing: 0.8em;
+    letter-spacing: 0.6em;
+}
+.perfumeDetails p {
+    letter-spacing: 0.1px;
 }
 .priceTag {
     display: flex;
@@ -43,7 +49,7 @@ body {
     margin-right: 20px;
 }
 .priceTag p {
-    text-decoration: line-through #444;
+    text-decoration: line-through #a2a2ab;
 }
 .classyFont {
     font-family: 'DM Serif Display', serif;
@@ -56,17 +62,18 @@ body {
 }
 button {
     background-color: #3d8168;
-    padding: 16px 28px;
+    padding: 16px 35px;
     color: #fff;
     border: none;
     border-radius: 10px;
     font-weight: 600;
     justify-content: center;
     align-items: center;
+    font-size: 1.1em;
     cursor: pointer;
 }
 button i {
-    margin-right: 8px;
+    margin-right: 9px;
 }
 .normalFont {
     font-family: 'Plus Jakarta Sans', sans-serif;
